@@ -20,11 +20,11 @@ export const data = [
   {
     id: 3,
     title:
-      "You against the machine: Can you spot which image was created by AI?",
-    date: new Date(2023, 01, 02),
-    length: 10,
+      "Elon Musk tells Tesla employees don’t be 'bothered by stock market craziness'",
+    date: new Date(2023, 01, 03),
+    length: 12,
     description:
-      "AI art is suddenly everywhere. We created a quiz to see whether you can spot the difference between human- and robot-generated images.",
+      "Tesla shares have plummeted 42% in December and are poised to close out their worst month, quarter and year on record.",
   },
   {
     id: 4,

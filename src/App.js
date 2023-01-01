@@ -1,7 +1,12 @@
 import "./App.css";
+import News from "./News";
 
 function App() {
-  return <div className="App">Dark-Mode App</div>;
+  return (
+    <div className="App">
+      <News />
+    </div>
+  );
 }
 
 export default App;

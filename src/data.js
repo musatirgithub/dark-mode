@@ -28,11 +28,10 @@ export const data = [
   },
   {
     id: 4,
-    title:
-      "You against the machine: Can you spot which image was created by AI?",
-    date: new Date(2023, 01, 02),
-    length: 10,
+    title: "TikTok banned on all House-issued mobile devices",
+    date: new Date(2023, 01, 04),
+    length: 11,
     description:
-      "AI art is suddenly everywhere. We created a quiz to see whether you can spot the difference between human- and robot-generated images.",
+      "The chief administrative officer of the House, who issued the directive, deemed the popular app a security risk.",
   },
 ];

@@ -28,9 +28,13 @@ const News = () => {
 
   return (
     <main>
-      <button onClick={toggleTheme}>{`${
-        theme === "light-theme" ? "dark-theme" : "light-theme"
-      }`}</button>
+      <div className="headers">
+        <h1>Breaking News</h1>
+        <button
+          onClick={toggleTheme}
+          className={`${theme === "light-theme" ? "btn" : "dark-btn"}`}
+        >{`${theme === "light-theme" ? "dark-theme" : "light-theme"}`}</button>
+      </div>
       {data.map((item) => {
         return <SingleData key={item.id} {...item} />;
       })}

@@ -13,9 +13,17 @@ const getTheme = () => {
 const News = () => {
   const [theme, setTheme] = useState(getTheme());
 
+  const toggleTheme = () => {
+    if (theme === "light-theme") {
+      setTheme("dark-theme");
+    } else {
+      setTheme("light-theme");
+    }
+  };
+
   return (
     <main>
-      <button>{`${
+      <button onClick={toggleTheme}>{`${
         theme === "light-theme" ? "dark-theme" : "light-theme"
       }`}</button>
       {data.map((item) => {

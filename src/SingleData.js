@@ -5,7 +5,7 @@ const SingleData = ({ id, title, date, length, description }) => {
     <article>
       <h4>{title}</h4>
       <h5>{`Publication date: ${date.getMonth()}/${date.getDate()}/${date.getFullYear()}`}</h5>
-      <h5>{`Estimated Read Duration: ${length}`}</h5>
+      <h5>{`Estimated Read Duration: ${length} mins`}</h5>
       <p>{description}</p>
     </article>
   );

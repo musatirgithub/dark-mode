@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { data } from "./data";
 import SingleData from "./SingleData";
 
@@ -20,6 +20,11 @@ const News = () => {
       setTheme("light-theme");
     }
   };
+
+  useEffect(() => {
+    document.documentElement.className = theme;
+    localStorage.setItem("theme", theme);
+  }, [theme]);
 
   return (
     <main>

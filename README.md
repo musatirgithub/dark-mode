@@ -1,4 +1,4 @@
-# [Project : pagination](https://pagination-three.vercel.app/)
+# [Project : dark-mode](dark-mode-six-beige.vercel.app)
 ## Table of contents
 
   - [The challenge](#the-challenge)

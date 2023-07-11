@@ -23,7 +23,7 @@ Project focuses on showing the page in both dark and light theme.
 
 ## Screenshot
 <p align="center">
-<a href="https://pagination-three.vercel.app/"><img src="pagination.gif" alt="gif"></a>
+<a href="https://dark-mode-six-beige.vercel.app/"><img src="dark_theme.gif" alt="gif"></a>
 </p>
 
 

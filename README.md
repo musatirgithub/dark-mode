@@ -1,4 +1,4 @@
-# [Project : dark-mode](dark-mode-six-beige.vercel.app)
+# [Project : dark-mode](https://dark-mode-six-beige.vercel.app/)
 ## Table of contents
 
   - [The challenge](#the-challenge)

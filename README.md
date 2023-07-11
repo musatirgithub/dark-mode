@@ -32,9 +32,8 @@ Project focuses on showing the page in both dark and light theme.
 
 ### Project Information
 - Dark-mode app is made by using React,
-- For showing designated number of followers at each page I've used Javascript Array.from method,
-- I've created a useFetch custom hook and got loading, error, repos from useFetch custom hook,
-- User can navigate between pages by either clicking page numbers or next, previous buttons.
+- Theme information is stored in local storage then assigned to a state variable,
+- With the help of useEffect, everytime user changes the state variable component re-renders, theme changes and local storage is updated.
 
 
 
@@ -42,8 +41,8 @@ Project focuses on showing the page in both dark and light theme.
 ------
 I used;
 - React
-- Async functions
-- Custom, useState, useEffect hooks.
+- DOM manipulation,
+- Local storage, useState, useEffect hooks.
 
 
 
@@ -51,7 +50,7 @@ I used;
 
 ## Lesson Learned
 
-- Javascript Array.from method is quite useful for turning an array into array of arrays. After exporting my array of arrays to Repos component I needed a two dependencies at my useEffect hook in order to rerender the page. By using loading ( comes from useFetch custom hook) and page states I've managed to rerender the page.
+- document.documentElement.className DOM element is quite useful for assigning global styles. 
 
 ### Useful resources
 

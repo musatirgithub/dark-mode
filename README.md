@@ -11,7 +11,7 @@
 
 
 ## The challenge
-Project focuses on showing github followers in a paginated structure
+Project focuses on showing the page in both dark and light theme.
 
 ## Problem Statement
 
